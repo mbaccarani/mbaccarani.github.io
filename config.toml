@@ -1,0 +1,5 @@
+baseURL = 'https://mbaccarani.github.io/'
+languageCode = 'es-es'
+title = "Mario's Website"
+theme = 'PaperModX'
+publishDir = "docs"
