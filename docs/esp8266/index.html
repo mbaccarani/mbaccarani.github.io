@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>ESP8266 | Mario&#39;s Website</title>
+<meta name="keywords" content="">
+<meta name="description" content="My First ESP8266 Project My Very First ESP8266 Project 
+
+Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible, AngularJS-powered HTML5 Markdown editor.
+ Type some Markdown on the left See HTML in the right ✨Magic ✨  Features  Import a HTML file and watch it magically convert to Markdown Drag and drop images (requires your Dropbox account be linked) Import and save files from GitHub, Dropbox, Google Drive and One Drive Drag and drop markdown and HTML files into Dillinger Export documents as Markdown, HTML and PDF  Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/docs/esp8266/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.34f610da9fa2cd806ab9ff3f025f84f8f50c190cfbe3eb63b50b7d092bd7afdf.css" integrity="sha256-NPYQ2p&#43;izYBquf8/Al&#43;E&#43;PUMGQz74&#43;tjtQt9CSvXr98=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+<meta name="twitter:title" content="ESP8266 | Mario&#39;s Website" />
+<meta name="twitter:description" content="My First ESP8266 Project My Very First ESP8266 Project 
+
+Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible, AngularJS-powered HTML5 Markdown editor.
+ Type some Markdown on the left See HTML in the right ✨Magic ✨  Features  Import a HTML file and watch it magically convert to Markdown Drag and drop images (requires your Dropbox account be linked) Import and save files from GitHub, Dropbox, Google Drive and One Drive Drag and drop markdown and HTML files into Dillinger Export documents as Markdown, HTML and PDF  Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email." />
+<meta property="og:title" content="ESP8266 | Mario&#39;s Website" />
+<meta property="og:description" content="My First ESP8266 Project My Very First ESP8266 Project 
+
+Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible, AngularJS-powered HTML5 Markdown editor.
+ Type some Markdown on the left See HTML in the right ✨Magic ✨  Features  Import a HTML file and watch it magically convert to Markdown Drag and drop images (requires your Dropbox account be linked) Import and save files from GitHub, Dropbox, Google Drive and One Drive Drag and drop markdown and HTML files into Dillinger Export documents as Markdown, HTML and PDF  Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/docs/esp8266/" />
+<meta property="article:section" content="docs" />
+  <meta property="article:published_time" content="2016-09-15T20:20:53&#43;00:00" />
+  <meta property="article:modified_time" content="2016-09-15T20:20:53&#43;00:00" />
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Docs",
+      "item": "http://localhost:1313/docs/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "ESP8266",
+      "item": "http://localhost:1313/docs/esp8266/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "ESP8266 | Mario's Website",
+  "name": "ESP8266",
+  "description": "My First ESP8266 Project My Very First ESP8266 Project \n\nDillinger is a cloud-enabled, mobile-ready, offline-storage compatible, AngularJS-powered HTML5 Markdown editor.\n Type some Markdown on the left See HTML in the right ✨Magic ✨  Features  Import a HTML file and watch it magically convert to Markdown Drag and drop images (requires your Dropbox account be linked) Import and save files from GitHub, Dropbox, Google Drive and One Drive Drag and drop markdown and HTML files into Dillinger Export documents as Markdown, HTML and PDF  Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.",
+  "keywords": [
+    
+  ],
+  "wordCount" : "552",
+  "inLanguage": "en",
+  "datePublished": "2016-09-15T20:20:53Z",
+  "dateModified": "2016-09-15T20:20:53Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/docs/esp8266/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mario's Website",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary-bg: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list-page {
+                background: var(--theme);
+            }
+
+            .list-page:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list-page:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+</head>
+
+<body class=" type-docs kind-page layout-" id="top"><script data-no-instant>
+function switchTheme(theme) {
+  switch (theme) {
+    case 'light':
+      document.body.classList.remove('dark');
+      break;
+    case 'dark':
+      document.body.classList.add('dark');
+      break;
+    
+    default:
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+      }
+  }
+}
+
+function isDarkTheme() {
+  return document.body.className.includes("dark");
+}
+
+function getPrefTheme() {
+  return localStorage.getItem("pref-theme");
+}
+
+function setPrefTheme(theme) {
+  switchTheme(theme)
+  localStorage.setItem("pref-theme", theme);
+}
+
+const toggleThemeCallbacks = {}
+toggleThemeCallbacks['main'] = (isDark) => {
+  
+  if (isDark) {
+    setPrefTheme('light');
+  } else {
+    setPrefTheme('dark');
+  }
+}
+
+
+
+
+window.addEventListener('toggle-theme', function() {
+  
+  const isDark = isDarkTheme()
+  for (const key in toggleThemeCallbacks) {
+    toggleThemeCallbacks[key](isDark)
+  }
+});
+
+
+function toggleThemeListener() {
+  
+  window.dispatchEvent(new CustomEvent('toggle-theme'));
+}
+
+</script>
+<script>
+  
+  (function() {
+    const defaultTheme = 'light';
+    const prefTheme = getPrefTheme();
+    const theme = prefTheme ? prefTheme : defaultTheme;
+
+    switchTheme(theme);
+  })();
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Mario&#39;s Website (Alt + H)">Mario&#39;s Website</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/docs/esp8266/" title="ESP8266" class="active"
+                >ESP8266
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/docs/transformer/" title="Transformer-3"
+                >TRANSFORMER-3
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About Me"
+                >ABOUT
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/computers/" title="Microcontrollers"
+                >MICROCONTROLLERS
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main post">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">ESP8266</h1>
+    <div class="post-meta"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
+  <span>September 15, 2016</span></span>
+
+      
+      
+    </div>
+  </header> 
+  <div class="post-content"><h1 id="my-first-esp8266-project">My First ESP8266 Project<a hidden class="anchor" aria-hidden="true" href="#my-first-esp8266-project">¶</a></h1>
+<h2 id="_my-very-first-esp8266-project_"><em>My Very First ESP8266 Project</em><a hidden class="anchor" aria-hidden="true" href="#_my-very-first-esp8266-project_">¶</a></h2>
+<p><a href="https://nodesource.com/products/nsolid">
+  <img loading="lazy" src="https://cldup.com/dTxpPi9lDf.thumb.png" alt="N|Solid"  /></a></p>
+<p><a href="https://travis-ci.org/joemccann/dillinger">
+  <img loading="lazy" src="https://travis-ci.org/joemccann/dillinger.svg?branch=master" alt="Build Status"  /></a></p>
+<p>Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
+AngularJS-powered HTML5 Markdown editor.</p>
+<ul>
+<li>Type some Markdown on the left</li>
+<li>See HTML in the right</li>
+<li>✨Magic ✨</li>
+</ul>
+<h2 id="features">Features<a hidden class="anchor" aria-hidden="true" href="#features">¶</a></h2>
+<ul>
+<li>Import a HTML file and watch it magically convert to Markdown</li>
+<li>Drag and drop images (requires your Dropbox account be linked)</li>
+<li>Import and save files from GitHub, Dropbox, Google Drive and One Drive</li>
+<li>Drag and drop markdown and HTML files into Dillinger</li>
+<li>Export documents as Markdown, HTML and PDF</li>
+</ul>
+<p>Markdown is a lightweight markup language based on the formatting conventions
+that people naturally use in email.
+As <a href="http://daringfireball.net">John Gruber</a> writes on the <a href="http://daringfireball.net/projects/markdown/">Markdown site</a></p>
+<blockquote>
+<p>The overriding design goal for Markdown&rsquo;s
+formatting syntax is to make it as readable
+as possible. The idea is that a
+Markdown-formatted document should be
+publishable as-is, as plain text, without
+looking like it&rsquo;s been marked up with tags
+or formatting instructions.</p>
+</blockquote>
+<p>This text you see here is *actually- written in Markdown! To get a feel
+for Markdown&rsquo;s syntax, type some text into the left window and
+watch the results in the right.</p>
+<h2 id="tech">Tech<a hidden class="anchor" aria-hidden="true" href="#tech">¶</a></h2>
+<p>Dillinger uses a number of open source projects to work properly:</p>
+<ul>
+<li><a href="http://angularjs.org">AngularJS</a> - HTML enhanced for web apps!</li>
+<li><a href="http://ace.ajax.org">Ace Editor</a> - awesome web-based text editor</li>
+<li><a href="https://github.com/markdown-it/markdown-it">markdown-it</a> - Markdown parser done right. Fast and easy to extend.</li>
+<li><a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> - great UI boilerplate for modern web apps</li>
+<li><a href="http://nodejs.org">node.js</a> - evented I/O for the backend</li>
+<li><a href="http://expressjs.com">Express</a> - fast node.js network app framework <a href="http://twitter.com/tjholowaychuk">@tjholowaychuk</a></li>
+<li><a href="http://gulpjs.com">Gulp</a> - the streaming build system</li>
+<li><a href="https://breakdance.github.io/breakdance/">Breakdance</a> - HTML
+to Markdown converter</li>
+<li><a href="http://jquery.com">jQuery</a> - duh</li>
+</ul>
+<p>And of course Dillinger itself is open source with a <a href="https://github.com/joemccann/dillinger">public repository</a>
+on GitHub.</p>
+<h2 id="installation">Installation<a hidden class="anchor" aria-hidden="true" href="#installation">¶</a></h2>
+<p>Dillinger requires <a href="https://nodejs.org/">Node.js</a> v10+ to run.</p>
+<p>Install the dependencies and devDependencies and start the server.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd dillinger
+npm i
+node app
+</code></pre></div><p>For production environments&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">npm install --production
+NODE_ENV<span style="color:#f92672">=</span>production node app
+</code></pre></div><h2 id="plugins">Plugins<a hidden class="anchor" aria-hidden="true" href="#plugins">¶</a></h2>
+<p>Dillinger is currently extended with the following plugins.
+Instructions on how to use them in your own application are linked below.</p>
+<table>
+<thead>
+<tr>
+<th>Plugin</th>
+<th>README</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dropbox</td>
+<td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md">plugins/dropbox/README.md</a></td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md">plugins/github/README.md</a></td>
+</tr>
+<tr>
+<td>Google Drive</td>
+<td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md">plugins/googledrive/README.md</a></td>
+</tr>
+<tr>
+<td>OneDrive</td>
+<td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md">plugins/onedrive/README.md</a></td>
+</tr>
+<tr>
+<td>Medium</td>
+<td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md">plugins/medium/README.md</a></td>
+</tr>
+<tr>
+<td>Google Analytics</td>
+<td><a href="https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md">plugins/googleanalytics/README.md</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="development">Development<a hidden class="anchor" aria-hidden="true" href="#development">¶</a></h2>
+<p>Want to contribute? Great!</p>
+<p>Dillinger uses Gulp + Webpack for fast developing.
+Make a change in your file and instantaneously see your updates!</p>
+<p>Open your favorite Terminal and run these commands.</p>
+<p>First Tab:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">node app
+</code></pre></div><p>Second Tab:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">gulp watch
+</code></pre></div><p>(optional) Third:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">karma test
+</code></pre></div><h4 id="building-for-source">Building for source<a hidden class="anchor" aria-hidden="true" href="#building-for-source">¶</a></h4>
+<p>For production release:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">gulp build --prod
+</code></pre></div><p>Generating pre-built zip archives for distribution:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">gulp build dist --prod
+</code></pre></div><h2 id="docker">Docker<a hidden class="anchor" aria-hidden="true" href="#docker">¶</a></h2>
+<p>Dillinger is very easy to install and deploy in a Docker container.</p>
+<p>By default, the Docker will expose port 8080, so change this within the
+Dockerfile if necessary. When ready, simply use the Dockerfile to
+build the image.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd dillinger
+docker build -t &lt;youruser&gt;/dillinger:<span style="color:#e6db74">${</span>package.json.version<span style="color:#e6db74">}</span> .
+</code></pre></div><p>This will create the dillinger image and pull in the necessary dependencies.
+Be sure to swap out <code>${package.json.version}</code> with the actual
+version of Dillinger.</p>
+<p>Once done, run the Docker image and map the port to whatever you wish on
+your host. In this example, we simply map port 8000 of the host to
+port 8080 of the Docker (or whatever port was exposed in the Dockerfile):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker run -d -p 8000:8080 --restart<span style="color:#f92672">=</span>always --cap-add<span style="color:#f92672">=</span>SYS_ADMIN --name<span style="color:#f92672">=</span>dillinger &lt;youruser&gt;/dillinger:<span style="color:#e6db74">${</span>package.json.version<span style="color:#e6db74">}</span>
+</code></pre></div><blockquote>
+<p>Note: <code>--capt-add=SYS-ADMIN</code> is required for PDF rendering.</p>
+</blockquote>
+<p>Verify the deployment by navigating to your server address in
+your preferred browser.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">127.0.0.1:8000
+</code></pre></div><h2 id="license">License<a hidden class="anchor" aria-hidden="true" href="#license">¶</a></h2>
+<p>MIT</p>
+<p><strong>Free Software, Hell Yeah!</strong></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+  <span>&copy; 2022 <a href="http://localhost:1313/">Mario&#39;s Website</a></span><span style="display: inline-block; margin-left: 1em;">
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+  </span>
+  <span style="display: inline-block; margin-left: 1em;">
+    Powered by
+    <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+    <a href="https://github.com/reorx/hugo-PaperModX/" rel="noopener" target="_blank">PaperModX</a>
+  </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+    <path d="M12 6H0l6-6z" />
+  </svg>
+</a>
+
+<script>
+  (function() {
+     
+    const disableThemeToggle = '' == '1';
+    if (disableThemeToggle) {
+      return;
+    }
+
+    let button = document.getElementById("theme-toggle")
+    
+    button.removeEventListener('click', toggleThemeListener)
+    
+    button.addEventListener('click', toggleThemeListener)
+  })();
+</script>
+
+<script>
+  (function () {
+    let menu = document.getElementById('menu')
+    if (menu) {
+      menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+      menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+      }
+    }
+
+    const disableSmoothScroll = '' == '1';
+    const enableInstantClick = '' == '1';
+    
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || disableSmoothScroll || enableInstantClick) {
+      return;
+    }
+    
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        var id = this.getAttribute("href").substr(1);
+        document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+          behavior: "smooth"
+        });
+        if (id === "top") {
+          history.replaceState(null, null, " ");
+        } else {
+          history.pushState(null, null, `#${id}`);
+        }
+      });
+    });
+  })();
+</script>
+<script>
+  var mybutton = document.getElementById("top-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mybutton.style.visibility = "visible";
+      mybutton.style.opacity = "1";
+    } else {
+      mybutton.style.visibility = "hidden";
+      mybutton.style.opacity = "0";
+    }
+  };
+</script>
+<script>
+  if (window.scrollListeners) {
+    
+    for (const listener of scrollListeners) {
+      window.removeEventListener('scroll', listener)
+    }
+  }
+  window.scrollListeners = []
+</script>
+
+
+
+<script src="/js/medium-zoom.min.js" data-no-instant
+></script>
+
+
+
+
+<script>
+  
+  
+  (function() {
+    const enableTocScroll = '' == '1'
+    if (!enableTocScroll) {
+      return
+    }
+    if (!document.querySelector('.toc')) {
+      console.log('no toc found, ignore toc scroll')
+      return
+    }
+    
+
+    
+    const scrollListeners = window.scrollListeners
+    const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]');
+    const activeClass = 'active';
+
+    
+    let activeHeading = headings[0];
+    getLinkByHeading(activeHeading).classList.add(activeClass);
+
+    const onScroll = () => {
+      const passedHeadings = [];
+      for (const h of headings) {
+        
+        if (getOffsetTop(h) < 5) {
+          passedHeadings.push(h)
+        } else {
+          break;
+        }
+      }
+      if (passedHeadings.length > 0) {
+        newActiveHeading = passedHeadings[passedHeadings.length - 1];
+      } else {
+        newActiveHeading = headings[0];
+      }
+      if (activeHeading != newActiveHeading) {
+        getLinkByHeading(activeHeading).classList.remove(activeClass);
+        activeHeading = newActiveHeading;
+        getLinkByHeading(activeHeading).classList.add(activeClass);
+      }
+    }
+
+    let timer = null;
+    const scrollListener = () => {
+      if (timer !== null) {
+        clearTimeout(timer)
+      }
+      timer = setTimeout(onScroll, 50)
+    }
+    window.addEventListener('scroll', scrollListener, false);
+    scrollListeners.push(scrollListener)
+
+    function getLinkByHeading(heading) {
+      const id = encodeURI(heading.getAttribute('id')).toLowerCase();
+      return document.querySelector(`.toc ul li a[href="#${id}"]`);
+    }
+
+    function getOffsetTop(heading) {
+      if (!heading.getClientRects().length) {
+        return 0;
+      }
+      let rect = heading.getBoundingClientRect();
+      return rect.top
+    }
+  })();
+  </script>
+
+</body>
+
+</html>
