@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mario&#39;s Website</title>
-    <link>http://localhost:1313/</link>
+    <link>https://mbaccarani.github.io/</link>
     <description>Recent content on Mario&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Oct 2022 20:18:24 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Oct 2022 20:18:24 +0000</lastBuildDate><atom:link href="https://mbaccarani.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Transformer</title>
-      <link>http://localhost:1313/docs/transformer/</link>
+      <link>https://mbaccarani.github.io/docs/transformer/</link>
       <pubDate>Sat, 01 Oct 2022 20:18:24 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/transformer/</guid>
+      <guid>https://mbaccarani.github.io/docs/transformer/</guid>
       <description>Transformer-3 The Last Markdown Editor, Ever 
 
 Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible, AngularJS-powered HTML5 Markdown editor.
@@ -159,10 +159,10 @@ your preferred browser.</p>
     
     <item>
       <title>ESP8266</title>
-      <link>http://localhost:1313/docs/esp8266/</link>
+      <link>https://mbaccarani.github.io/docs/esp8266/</link>
       <pubDate>Thu, 15 Sep 2016 20:20:53 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/esp8266/</guid>
+      <guid>https://mbaccarani.github.io/docs/esp8266/</guid>
       <description>My First ESP8266 Project My Very First ESP8266 Project 
 
 Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible, AngularJS-powered HTML5 Markdown editor.
