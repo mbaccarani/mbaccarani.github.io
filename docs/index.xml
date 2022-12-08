@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mario&#39;s Website</title>
+    <link>https://mbaccarani.github.io/</link>
+    <description>Recent content on Mario&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sat, 03 Jun 2017 22:30:37 +0000</lastBuildDate><atom:link href="https://mbaccarani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transformer-3</title>
+      <link>https://mbaccarani.github.io/docs/transformer/</link>
+      <pubDate>Sat, 03 Jun 2017 22:30:37 +0000</pubDate>
+      
+      <guid>https://mbaccarani.github.io/docs/transformer/</guid>
+      <description>Transformer-3 streamlines the generation, storage, interpretation, processing and application of any kind of molecular population genetic data.
+Because of its ease of use and versatility, Transformer-3 speeds up data transformations and analyses that are otherwise burdensome, complex and prone to error, thereby allowing the researcher to concentrate in what really matters: the critical discussion of quantitative results and hypotheses.
+Helping the researcher save time, Transformer-3 permits the effective implementation of urgency in the growing number of practical applications of molecular population genetic information.</description>
+      <content:encoded><![CDATA[<p><strong>Transformer-3</strong> streamlines the generation, storage, interpretation, processing and application of any kind of molecular population genetic data.</p>
+<p>Because of its ease of use and versatility, <strong>Transformer-3</strong> speeds up data transformations and analyses that are otherwise burdensome, complex and prone to error, thereby allowing the researcher to concentrate in what really matters: the critical discussion of quantitative results and hypotheses.</p>
+<p>Helping the researcher save time, <strong>Transformer-3</strong> permits the effective implementation of urgency in the growing number of practical applications of molecular population genetic information.</p>
+<p><strong>Transformer-3</strong> is suitable to speed up the statistical analysis of both co-dominant (allozyme or microsatellite) and dominant (AFLP, RAPD, RFLP) data matrices containing up to 66,000 diploid individuals distributed in a maximum of 50 populations.</p>
+<p>Use the program only in a PC. Since <strong>Transformer-3</strong> runs macros, check that your macro security is set at least to medium, and also make sure that you do not have Excel add-ins in your computer, as these might interfere with some commands in <strong>Transformer-3</strong>.</p>
+<p><strong>Transformer-3</strong> can be downloaded without charge, and may be distributed freely if and when (i) it does not undergo any modification, (ii) the manual and the three example files are attached without changes, and (iii) it is adequately cited in all papers and communications as follows:</p>
+<blockquote>
+<p>Caujapé-Castells J, Baccarani-Rosas M (2005) Transformer-3: a program for the analysis of molecular population genetic data.</p>
+</blockquote>
+<h3 id="download">Download</h3>
+<ul>
+<li><a href="https://mbaccarani.github.io/Transformer-3/files/Transformer34.zip">Transformer-3</a></li>
+<li><a href="https://mbaccarani.github.io/Transformer-3/files/Transformer3b4.zip">Co-dominant example file (allozyme drawing)</a></li>
+<li><a href="https://mbaccarani.github.io/Transformer-3/files/t3_example_codominant_data.zip">Co-dominant example file (genotype table)</a></li>
+<li><a href="https://mbaccarani.github.io/Transformer-3/files/t3_example_dominant_data.zip">Dominant example file (genotype table)</a></li>
+<li><a href="https://mbaccarani.github.io/Transformer-3/files/transformer3_manual.pdf">Manual</a></li>
+</ul>
+<h4 id="important-note">Important Note:</h4>
+<p>In some languages the combination of keys to draw an allele, to draw a phantom band or to draw a heterodimer, coincide with some of the excel menu options. To overcome this problem, the following links allow you to download a modified version of Transformer where:</p>
+<ul>
+<li>To draw an allele band press    [ALT] + [1] .</li>
+<li>To draw a phantom band press    [ALT] + [2] .</li>
+<li>To insert an heterodimer press  [ALT] + [3] .</li>
+</ul>
+<h4 id="modified-transformer">Modified Transformer:</h4>
+<ul>
+<li><a href="https://mbaccarani.github.io/Transformer-3/files/Transformer34s.zip">Transformer-3 (modified)</a></li>
+<li><a href="https://mbaccarani.github.io/Transformer-3/files/Transformer3b4s.zip">Allozyme Drawing (modified)</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>ESP8266 ESP-12E Primeros Pasos</title>
+      <link>https://mbaccarani.github.io/docs/esp8266/</link>
+      <pubDate>Mon, 26 Sep 2016 12:59:11 +0000</pubDate>
+      
+      <guid>https://mbaccarani.github.io/docs/esp8266/</guid>
+      <description>Les mostraré los primeros pasos que tuve que dar, para poder iniciarme en la programación del módulo wifi ESP8266. Utilizaré para ello esta placa de pruebas, que viene equipada con la versión ESP-12E del módulo.
+Muy importante: El módulo funciona con 3.3 voltios. No pueden conectarle 5v a ninguno de sus terminales.
+Antes de empezar a trabajar con el módulo, es necesario retirar el puente de color amarillo, y colocarlo tal como se ve en la foto.</description>
+      <content:encoded><![CDATA[<p><figure>
+    <img loading="lazy" src="../images/wordpress_esp8266.jpg" width="300" height="260"/> 
+</figure>
+
+Les mostraré los primeros pasos que tuve que dar, para poder iniciarme en la programación del módulo wifi ESP8266. Utilizaré para ello esta <a href="http://www.gearbest.com/transmitters-receivers-module/pp_218381.html">placa de pruebas</a>, que viene equipada con la versión ESP-12E del módulo.</p>
+<p>Muy importante: El módulo funciona con 3.3 voltios. <strong>No pueden conectarle 5v a ninguno de sus terminales</strong>.</p>
+<p>Antes de empezar a trabajar con el módulo, es necesario retirar el puente de color amarillo, y colocarlo tal como se ve en la foto. Me refiero al <em>jumper</em> que puede verse en la parte superior derecha de la foto. Si lo dejan tal como viene de fábrica, el módulo se iniciará en modo reprogramado del firmware. Dicho de otra forma, si desean <em>reflashear</em> el firmware, el <em>jumper</em> deberá cortocircuitar ambos terminales.</p>
+<h4 id="que-pasa-si-coloco-las-pilas">Que pasa si coloco las pilas</h4>
+<p>Si colocan las pilas, el módulo funcionará en modo punto de acceso. Exactamente en modo <a href="https://en.wikipedia.org/wiki/SoftAP">softAP</a>. El ESP8266 estará a la escucha de otros dispositivos wifi que deseen conectarse a él. Según el manual, el SSID de la red wifi será AI-THINKER_XXXXXX y la contraseña será ai-thinker. Pueden ver la señal de su placa por medio de un ordenador portátil, un teléfono o una tablet. Sin embargo, la placa que yo había comprado, no traía contraseña. Por lo que la señal de wifi estaba abierta.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><figure>
+    <img loading="lazy" src="../images/wordpress_esp8266_02.jpg" width="340" height="240"/> 
+</figure>
+</td>
+<td><figure>
+    <img loading="lazy" src="../images/wordpress_esp8266_011.jpg" width="340" height="240"/> 
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<p>En este punto, me preguntaba si la placa vendría pre-programada con alguna aplicación. Consideré entonces, que sería mejor instalar en el teléfono, un scanner de red. La aplicación me ayudaría a ver las IP que cada dispositivo tenía asignadas, y además qué puertos estaban abiertos en el módulo ESP8266.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><figure>
+    <img loading="lazy" src="../images/screenshot_app_0.png"/> 
+</figure>
+</td>
+<td><figure>
+    <img loading="lazy" src="../images/screenshot_app_1.png"/> 
+</figure>
+</td>
+<td><figure>
+    <img loading="lazy" src="../images/screenshot_app_2.png"/> 
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Decidí instalar IPTools. Por cierto, no es la única forma de conocer la IP de los dispositivos conectados al módulo wifi, y la IP del módulo mismo; pero si tienen en mente hacer un escaneo de todos los puertos, es la opción más cómoda. La IP del ESP8266 fue 192.168.4.1 .</p>
+<p>Escaneé todos los puertos del módulo ESP8266, y no estaba ninguno abierto. Asumí entonces, que la versión de firmware cargada en mi módulo, no traía aplicación de prueba. Digo esto, porque Ai-Thinker ofrece en su web, una app para Android, que supuestamente permitiría variar el color del led RGB y encender los leds que tiene la placa. La aplicación no funcionó con mi placa. Capturas de pantalla de la app, pueden verse a continuación.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><figure>
+    <img loading="lazy" src="../images/screenshot_iptools_0.png"/> 
+</figure>
+</td>
+<td><figure>
+    <img loading="lazy" src="../images/screenshot_iptools_1.png"/> 
+</figure>
+</td>
+<td><figure>
+    <img loading="lazy" src="../images/screenshot_iptools_2.png"/> 
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Para interactuar con el ESP8266, había que conectar el módulo al puerto serie de un ordenador. Para eso hacía falta un adaptador RS232-a-Serial TTL, o los más utilizados actualmente USB-a-Serial TTL.</p>
+<h4 id="conectando-el-esp8266-al-puerto-serie">Conectando el ESP8266 al Puerto Serie</h4>
+<p>Para conectar mi ESP8266 al ordenador, utilicé un adaptador USB-a-Serial TTL basado en el circuito integrado FT232RL del fabricante <a href="http://www.ftdichip.com">FTDI</a>. El adaptador que compren tiene que funcionar con 3.3 volt. Existen adaptadores, que cambiándoles la posición de un jumper, pueden funcionar tanto con 5v, como con 3.3v.</p>
+<p>Las piezas para hacerme un adaptador las compré en <a href="http://www.futurlec.com">Futurlec</a>. Actualmente no tiene sentido hacerse un adaptador USB-Serial uno mismo. Les costaría mucho más que comprar uno hecho.</p>
+<p><figure>
+    <img loading="lazy" src="../images/wordpress_ft232rl_00.jpg"/> 
+</figure>
+
+<figure>
+    <img loading="lazy" src="../images/wordpress_ft232rl_01.png"/> 
+</figure>
+</p>
+<p>No fue necesario preocuparse por instalar controladores para el integrado FT232RL. Linux Mint ya venía con los controladores necesarios. El dispositivo USB fue reconocido inmediatamente, y el sistema operativo le asignó el nombre <a href="http://stackoverflow.com/questions/9628988/ubuntu-rxtx-does-not-recognize-usb-serial-device?rq=1"><strong>ttyUSB0</strong></a>.</p>
+<p>Conozco dos formas de saber que nombre ha asignado linux, al adaptador USB de puerto serie. Las dos son por medio de la interfaz de línea de comandos. Los dos formas se basan en el listado de dispositivos serial, antes y después de haber conectado el adaptador USB.</p>
+<p>Estando el adaptador USB-Serial desconectado, abren una ventana de comandos, y escriben el comando:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">dmesg | grep tty
+</code></pre></div><p>Luego conectan el adaptador USB-Serial, y vuelven a escribir:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">dmesg | grep tty
+</code></pre></div><p>Entonces verán que aparece un dispositivo con la descripción <strong>USB Serial Device converter now attached to ttyUSB0</strong> o tambien puede ser <strong>UART converter now attached to ttyUSB0</strong> .</p>
+<figure>
+    <img loading="lazy" src="../images/screenshot_usb_0.png" width="720" height="505"/> 
+</figure>
+
+<p>Estando desconectado el convertidor USB a Serial desconectado, escriben:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ls /dev/tty*
+</code></pre></div><p>Enchufan el adaptador, y luego de ejecutar el mismo comando, aparece el nuevo dispositivo.</p>
+<figure>
+    <img loading="lazy" src="../images/screenshot_usb_1.png" width="720" height="505"/> 
+</figure>
+
+<p>Para poder enviar <a href="http://www.pighixxx.com/test/wp-content/uploads/2014/12/ESP8266Ref.pdf">comandos AT</a> al módulo ESP8266, y luego para poder programarlo, les será necesario hacer que su usuario deba pertenecer al grupo <strong>dialout</strong>. Los usuarios pertenecientes a ese grupo, tienen los permisos necesarios para poder leer y escribir en ese dispositivo (ttyUSB0). Si lo quieren hacer de forma visual, estos son los pasos a seguir:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><figure>
+    <img loading="lazy" src="../images/screenshot_groups_0.png"/> 
+</figure>
+</td>
+<td><figure>
+    <img loading="lazy" src="../images/screenshot_groups_1.png"/> 
+</figure>
+</td>
+</tr>
+<tr>
+<td><figure>
+    <img loading="lazy" src="../images/screenshot_groups_2.png"/> 
+</figure>
+</td>
+<td><figure>
+    <img loading="lazy" src="../images/screenshot_groups_3.png"/> 
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Si lo quieren hacer por línea de comandos:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo usermod -a -G dialout tuusuario
+</code></pre></div><p>Ya tenía el ESP8266 conectado por el puerto serie ttyUSB0, los permisos de usuario asignados y ahora solamente faltaba conectarme al módulo wifi, por medio de un terminal serial, para así poder enviar <a href="http://www.pighixxx.com/test/wp-content/uploads/2014/12/ESP8266Ref.pdf">comandos AT</a> al ESP8266.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

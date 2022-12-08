@@ -3,3 +3,17 @@ languageCode = 'es-es'
 title = "Mario's Website"
 theme = 'PaperModX'
 publishDir = "docs"
+
+[menu]
+[[menu.main]]
+  identifier = 'transformer'
+  name = 'TRANSFORMER-3'
+  title = 'Transformer-3'
+  url = '/docs/transformer/'
+  weight = -120
+[[menu.main]]
+  identifier = 'esp8266'
+  name = 'ESP8266'
+  title = 'ESP8266'
+  url = '/docs/esp8266/'
+  weight = -130
