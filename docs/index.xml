@@ -58,7 +58,7 @@ Helping the researcher save time, Transformer-3 permits the effective implementa
 Muy importante: El módulo funciona con 3.3 voltios. No pueden conectarle 5v a ninguno de sus terminales.
 Antes de empezar a trabajar con el módulo, es necesario retirar el puente de color amarillo, y colocarlo tal como se ve en la foto.</description>
       <content:encoded><![CDATA[<p><figure>
-    <img loading="lazy" src="../images/wordpress_esp8266.jpg" width="300" height="260"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/wordpress_esp8266.jpg" width="300" height="260"/> 
 </figure>
 
 Les mostraré los primeros pasos que tuve que dar, para poder iniciarme en la programación del módulo wifi ESP8266. Utilizaré para ello esta <a href="http://www.gearbest.com/transmitters-receivers-module/pp_218381.html">placa de pruebas</a>, que viene equipada con la versión ESP-12E del módulo.</p>
@@ -76,11 +76,11 @@ Les mostraré los primeros pasos que tuve que dar, para poder iniciarme en la pr
 <tbody>
 <tr>
 <td><figure>
-    <img loading="lazy" src="../images/wordpress_esp8266_02.jpg" width="340" height="240"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/wordpress_esp8266_02.jpg" width="340" height="240"/> 
 </figure>
 </td>
 <td><figure>
-    <img loading="lazy" src="../images/wordpress_esp8266_011.jpg" width="340" height="240"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/wordpress_esp8266_011.jpg" width="340" height="240"/> 
 </figure>
 </td>
 </tr>
@@ -98,15 +98,15 @@ Les mostraré los primeros pasos que tuve que dar, para poder iniciarme en la pr
 <tbody>
 <tr>
 <td><figure>
-    <img loading="lazy" src="../images/screenshot_app_0.png"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/screenshot_app_0.png"/> 
 </figure>
 </td>
 <td><figure>
-    <img loading="lazy" src="../images/screenshot_app_1.png"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/screenshot_app_1.png"/> 
 </figure>
 </td>
 <td><figure>
-    <img loading="lazy" src="../images/screenshot_app_2.png"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/screenshot_app_2.png"/> 
 </figure>
 </td>
 </tr>
@@ -125,15 +125,15 @@ Les mostraré los primeros pasos que tuve que dar, para poder iniciarme en la pr
 <tbody>
 <tr>
 <td><figure>
-    <img loading="lazy" src="../images/screenshot_iptools_0.png"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/screenshot_iptools_0.png"/> 
 </figure>
 </td>
 <td><figure>
-    <img loading="lazy" src="../images/screenshot_iptools_1.png"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/screenshot_iptools_1.png"/> 
 </figure>
 </td>
 <td><figure>
-    <img loading="lazy" src="../images/screenshot_iptools_2.png"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/screenshot_iptools_2.png"/> 
 </figure>
 </td>
 </tr>
@@ -144,11 +144,11 @@ Les mostraré los primeros pasos que tuve que dar, para poder iniciarme en la pr
 <p>Para conectar mi ESP8266 al ordenador, utilicé un adaptador USB-a-Serial TTL basado en el circuito integrado FT232RL del fabricante <a href="http://www.ftdichip.com">FTDI</a>. El adaptador que compren tiene que funcionar con 3.3 volt. Existen adaptadores, que cambiándoles la posición de un jumper, pueden funcionar tanto con 5v, como con 3.3v.</p>
 <p>Las piezas para hacerme un adaptador las compré en <a href="http://www.futurlec.com">Futurlec</a>. Actualmente no tiene sentido hacerse un adaptador USB-Serial uno mismo. Les costaría mucho más que comprar uno hecho.</p>
 <p><figure>
-    <img loading="lazy" src="../images/wordpress_ft232rl_00.jpg"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/wordpress_ft232rl_00.jpg"/> 
 </figure>
 
 <figure>
-    <img loading="lazy" src="../images/wordpress_ft232rl_01.png"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/wordpress_ft232rl_01.png"/> 
 </figure>
 </p>
 <p>No fue necesario preocuparse por instalar controladores para el integrado FT232RL. Linux Mint ya venía con los controladores necesarios. El dispositivo USB fue reconocido inmediatamente, y el sistema operativo le asignó el nombre <a href="http://stackoverflow.com/questions/9628988/ubuntu-rxtx-does-not-recognize-usb-serial-device?rq=1"><strong>ttyUSB0</strong></a>.</p>
@@ -159,14 +159,14 @@ Les mostraré los primeros pasos que tuve que dar, para poder iniciarme en la pr
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">dmesg | grep tty
 </code></pre></div><p>Entonces verán que aparece un dispositivo con la descripción <strong>USB Serial Device converter now attached to ttyUSB0</strong> o tambien puede ser <strong>UART converter now attached to ttyUSB0</strong> .</p>
 <figure>
-    <img loading="lazy" src="../images/screenshot_usb_0.png" width="720" height="505"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/screenshot_usb_0.png" width="720" height="505"/> 
 </figure>
 
 <p>Estando desconectado el convertidor USB a Serial desconectado, escriben:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ls /dev/tty*
 </code></pre></div><p>Enchufan el adaptador, y luego de ejecutar el mismo comando, aparece el nuevo dispositivo.</p>
 <figure>
-    <img loading="lazy" src="../images/screenshot_usb_1.png" width="720" height="505"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/screenshot_usb_1.png" width="720" height="505"/> 
 </figure>
 
 <p>Para poder enviar <a href="http://www.pighixxx.com/test/wp-content/uploads/2014/12/ESP8266Ref.pdf">comandos AT</a> al módulo ESP8266, y luego para poder programarlo, les será necesario hacer que su usuario deba pertenecer al grupo <strong>dialout</strong>. Los usuarios pertenecientes a ese grupo, tienen los permisos necesarios para poder leer y escribir en ese dispositivo (ttyUSB0). Si lo quieren hacer de forma visual, estos son los pasos a seguir:</p>
@@ -180,7 +180,7 @@ Les mostraré los primeros pasos que tuve que dar, para poder iniciarme en la pr
 <tbody>
 <tr>
 <td><figure>
-    <img loading="lazy" src="../images/screenshot_groups_0.png"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/screenshot_groups_0.png"/> 
 </figure>
 </td>
 <td><figure>
@@ -190,7 +190,7 @@ Les mostraré los primeros pasos que tuve que dar, para poder iniciarme en la pr
 </tr>
 <tr>
 <td><figure>
-    <img loading="lazy" src="../images/screenshot_groups_2.png"/> 
+    <img loading="lazy" src="https://mbaccarani.github.io/images/screenshot_groups_2.png"/> 
 </figure>
 </td>
 <td><figure>
